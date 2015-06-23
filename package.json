@@ -4,7 +4,7 @@
   "description": "html5 storage interface for node and browser",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/tap/bin/run.js test.js"
+    "test": "./node_modules/tape/bin/tape test.js"
   },
   "browser": {
     "index.js": "client.js"
