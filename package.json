@@ -1,6 +1,6 @@
 {
   "name": "require-storage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "html5 storage interface for node and browser",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,17 @@
   "license": "ISC",
   "devDependencies": {
     "tape": "^4.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pqx/require-storage.git"
+  },
+  "keywords": [
+    "localStorage",
+    "storage"
+  ],
+  "bugs": {
+    "url": "https://github.com/pqx/require-storage/issues"
+  },
+  "homepage": "https://github.com/pqx/require-storage#readme"
 }
