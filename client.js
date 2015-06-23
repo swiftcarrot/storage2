@@ -21,7 +21,7 @@ if(_storage_support) {
 } else {
   var lsCookie = cookie.read('localStorage');
 
-  var localStorage = new Storage(
+  var ls = new Storage(
     lsCookie ? JSON.parse(lsCookie) : {}, // init
     function(data) { // set
       createCookie('localStorage', JSON.stringify(data), 365);
@@ -31,10 +31,10 @@ if(_storage_support) {
     }
   );
 
-  var sessionStorage = new Storage();
+  var ss = new Storage();
 
   module.exports = {
-    localStorage: localStorage,
-    sessionStorage: sessionStorage
+    localStorage: ls,
+    sessionStorage: ss
   };
 }
