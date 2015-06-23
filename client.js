@@ -1,5 +1,5 @@
 var Storage = require('./lib/storage');
-var Cookie = require('./lib/cookie');
+var cookie = require('./lib/cookie');
 
 var _storage_support = true;
 
@@ -24,7 +24,7 @@ if(_storage_support) {
   var ls = new Storage(
     lsCookie ? JSON.parse(lsCookie) : {}, // init
     function(data) { // set
-      createCookie('localStorage', JSON.stringify(data), 365);
+      cookie.create('localStorage', JSON.stringify(data), 365);
     },
     function() { // clear
       cookie.create('localStorage', '', 365);
