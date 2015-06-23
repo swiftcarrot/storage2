@@ -1,0 +1,17 @@
+{
+  "name": "require-storage",
+  "version": "1.0.0",
+  "description": "html5 storage interface for node and browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/tap/bin/run.js test.js"
+  },
+  "browser": {
+    "index.js": "client.js"
+  },
+  "author": "Wang Zuo",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}
