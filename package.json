@@ -2,12 +2,12 @@
   "name": "storage2",
   "version": "0.0.1",
   "description": "html5 storage interface for node and browser",
-  "main": "index.js",
+  "main": "./lib/node.js",
   "scripts": {
     "test": "./node_modules/tape/bin/tape test.js"
   },
   "browser": {
-    "index.js": "client.js"
+    "./lib/node.js": "./lib/client.js"
   },
   "author": "Wang Zuo",
   "license": "ISC",
