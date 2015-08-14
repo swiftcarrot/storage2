@@ -1,9 +1,9 @@
 var test = require('tape');
-var ls = require('./').localStorage;
-var ss = require('./').sessionStorage;
+var Storage = require('./lib/node');
+var ls = Storage.localStorage;
+var ss = Storage.sessionStorage;
 
 test('localStorage', function(t) {
-  t.plan(6);
   t.equal(ls.length, 0);
   ls.setItem('test', '42');
   t.equal(ls.getItem('test'), '42');
@@ -12,10 +12,10 @@ test('localStorage', function(t) {
   ls.removeItem('test');
   t.equal(ls.getItem('test'), null);
   t.equal(ls.length, 0);
+  t.end();
 });
 
 test('sessionStorage', function(t) {
-  t.plan(6);
   t.equal(ss.length, 0);
   ss.setItem('test', '42');
   t.equal(ss.getItem('test'), '42');
@@ -24,4 +24,5 @@ test('sessionStorage', function(t) {
   ss.removeItem('test');
   t.equal(ss.getItem('test'), null);
   t.equal(ss.length, 0);
+  t.end();
 });

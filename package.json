@@ -12,10 +12,12 @@
   "author": "Wang Zuo",
   "license": "ISC",
   "devDependencies": {
+    "istanbul": "^0.3.17",
     "tape": "^4.0.0"
   },
   "keywords": [
     "localStorage",
+    "polyfill",
     "sessionStorage",
     "storage"
   ],
