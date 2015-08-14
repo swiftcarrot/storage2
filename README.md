@@ -1,5 +1,5 @@
 # storage2
-[![Build Status](https://travis-ci.org/pqx/require-storage.svg)](https://travis-ci.org/pqx/require-storage)
+[![Build Status](https://travis-ci.org/pqx/storage2.svg)](https://travis-ci.org/pqx/storage2) [![codecov.io](http://codecov.io/github/pqx/storage2/coverage.svg?branch=master)](http://codecov.io/github/pqx/storage2?branch=master)
 
 One single html5 storage interface for node and browser (`browserify`)
 
