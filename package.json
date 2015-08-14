@@ -1,6 +1,6 @@
 {
   "name": "storage2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "html5 storage interface for node and browser",
   "main": "./lib/node.js",
   "scripts": {
