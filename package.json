@@ -4,7 +4,7 @@
   "description": "html5 storage interface for node and browser",
   "main": "./lib/node.js",
   "scripts": {
-    "test": "./node_modules/tape/bin/tape test.js"
+    "test": "tape test.js"
   },
   "browser": {
     "./lib/node.js": "./lib/client.js"
@@ -12,7 +12,7 @@
   "author": "Wang Zuo",
   "license": "ISC",
   "devDependencies": {
-    "istanbul": "^0.3.17",
+    "istanbul": "^0.4.5",
     "tape": "^4.0.0"
   },
   "keywords": [
