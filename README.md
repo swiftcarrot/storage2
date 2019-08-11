@@ -1,12 +1,12 @@
 # storage2
 
-[![Build Status](https://travis-ci.org/pqx/storage2.svg)](https://travis-ci.org/pqx/storage2) [![codecov.io](http://codecov.io/github/pqx/storage2/coverage.svg?branch=master)](http://codecov.io/github/pqx/storage2?branch=master)
+[![Build Status](https://travis-ci.org/swiftcarrot/storage2.svg)](https://travis-ci.org/swiftcarrot/storage2) [![codecov.io](http://codecov.io/github/swiftcarrot/storage2/coverage.svg?branch=master)](http://codecov.io/github/swiftcarrot/storage2?branch=master)
 
 HTML5 storage interface for node and browser
 
-1.  `node`: simple memory storage
-2.  `browser with storage api available`: return global storage object directly (`window.localStorage` and `window.sessionStorage`)
-3.  `browser without storage api`: cookie fallback
+- `node`: simple memory storage
+- `browser with storage api available`: return global storage object directly (`window.localStorage` and `window.sessionStorage`)
+- `browser without storage api`: cookie fallback
 
 ### Installation
 

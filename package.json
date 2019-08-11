@@ -23,10 +23,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pqx/storage2.git"
+    "url": "git+https://github.com/swiftcarrot/storage2.git"
   },
   "bugs": {
-    "url": "https://github.com/pqx/storage2/issues"
+    "url": "https://github.com/swiftcarrot/storage2/issues"
   },
-  "homepage": "https://github.com/pqx/storage2#readme"
+  "homepage": "https://github.com/swiftcarrot/storage2#readme"
 }
