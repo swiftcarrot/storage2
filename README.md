@@ -17,8 +17,8 @@ npm install storage2 --save
 ### Usage
 
 ```javascript
-var ls = require('storage2').localStorage;
-var ss = require('storage2').sessionStorage;
+var ls = require("storage2").localStorage;
+var ss = require("storage2").sessionStorage;
 ```
 
 For safari private mode, `localStorage` and `sessionStorage` will still be available globally but storage usage will cause an exception. `localStorage = require('storage2').localStorage` is not recommended and a different variable name like `ls` should always be used.
